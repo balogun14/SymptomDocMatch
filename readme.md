@@ -20,8 +20,8 @@ This project is a FastAPI-based application that matches patients to doctors bas
 
 1. **Clone the Repository** (if applicable):
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/balogun14/SymptomDocMatch.git
+   cd SymptomDocMatch
    ```
 
 2. **Install Dependencies**:
@@ -30,14 +30,14 @@ This project is a FastAPI-based application that matches patients to doctors bas
    ```
 
 3. **Save the Script**:
-   Save the provided `doctor_matching.py` script in your project directory.
+   Save the provided `app.py` script in your project directory.
 
 ## Setup
 
 1. **Run the Application**:
    Execute the script to initialize the SQLite database (`doctor_matching.db`) and start the server:
    ```bash
-   python doctor_matching.py
+   python app.py
    ```
    - This creates and seeds the database with:
      - A `doctors` table containing 95 doctor records.
